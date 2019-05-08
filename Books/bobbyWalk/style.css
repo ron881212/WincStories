@@ -1,0 +1,242 @@
+.page {
+    position: relative;
+}
+
+.margin {
+    margin-top: 5%;
+}
+
+.bobby-text {
+    color: rgb(51, 67, 214);
+    font-family: 'Baumans', cursive;
+    font-size: 21px;
+}
+
+.main {
+    z-index: 10;
+}
+
+.pc-one {
+    z-index: -100;
+    opacity: 0;
+    pointer-events: none;
+    color: black;
+    font-family: 'Baumans', cursive;
+}
+
+.pc13 {
+    z-index: 100;
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.pc-fifteen {
+    height: 100px;
+    z-index: 11;
+    position: absolute;
+    right: 30px;
+    top: 120px;
+}
+
+.pc-sixteen {
+    height: 100px;
+    z-index: 11;
+    position: absolute;
+    right: 30px;
+    top: 120px;
+}
+
+.imgsb {
+    height: auto;
+    width: 100%;
+}
+
+.titlepage {
+    height: 300px;
+}
+
+@media only screen and (min-height: 1200px) {
+    .imgsb {
+        max-height: 80%;
+        max-width: 100%;
+    }
+    .bobby-text {
+        font-size: 34px;
+    }
+}
+
+/* phone landscape */
+
+/* currently scroll required */
+
+@media only screen and (max-height: 414px) {
+    .bobby-text {
+        font-size: 10px;
+    }
+    .imgsb {
+        height: 200px;
+        max-width: 100%;
+    }
+}
+
+i, .bwLeft {
+    position: relative;
+    border: solid black;
+    border-width: 0 5px 5px 0;
+    display: inline-block;
+    padding: 7px;
+    bottom: 245px;
+    left: -30px;
+}
+
+i, .bwRight {
+    position: relative;
+    border: solid black;
+    border-width: 0 5px 5px 0;
+    display: inline-block;
+    padding: 7px;
+    bottom: 245px;
+    left: 708px;
+}
+
+.bwLeftArrows {
+    position: relative;
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    border-radius: 50%;
+    display: inline-block;
+    bottom: 230px;
+}
+
+.bwRightArrows {
+    position: relative;
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    border-radius: 50%;
+    display: inline-block;
+    bottom: 230px;
+    left: 744px;
+}
+
+.bwLeft {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+}
+
+.bwRight {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+
+#butmargin {
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+.page-image {
+    margin-bottom: -40px;
+}
+
+@media only screen and (max-height: 768px) {
+    i, .bwLeft {
+        bottom: 255px;
+        left: -4%;
+    }
+    i, .bwRight {
+        bottom: 255px;
+        left: 74%;
+    }
+    .bwLeftArrows {
+        position: relative;
+        height: 50px;
+        width: 50px;
+        background-color: white;
+        border-radius: 50%;
+        display: inline-block;
+        bottom: 240px;
+        left: 7px;
+    }
+    .bwRightArrows {
+        left: 80%;
+        bottom: 240px;
+    }
+}
+
+@media only screen and (min-height: 1200px) {
+    i, .bwLeft {
+        bottom: 355px;
+        left: -1%;
+    }
+    i, .bwRight {
+        bottom: 355px;
+        left: 89%;
+    }
+    .bwLeftArrows {
+        position: relative;
+        height: 50px;
+        width: 50px;
+        background-color: white;
+        border-radius: 50%;
+        display: inline-block;
+        bottom: 340px;
+        left: 15px;
+    }
+    .bwRightArrows {
+        left: 91.5%;
+        bottom: 340px;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    .page-image {
+        margin-bottom: 0px;
+    }
+    i, .bwLeft {
+        display: none;
+    }
+    i, .bwRight {
+        display: none;
+    }
+    .bwLeftArrows {
+        display: none;
+    }
+    .bwRightArrows {
+        display: none;
+    }
+    .imgs {
+        height: 200px;
+        max-width: 100%;
+        margin-bottom: 30px;
+    }
+}
+
+/* phone landscape */
+
+/* currently scroll required */
+
+@media only screen and (max-height: 414px) {
+    .page-image {
+        margin-bottom: 0px;
+    }
+    .imgs {
+        height: 200px;
+        max-width: 100%;
+        margin-bottom: 30px;
+    }
+    i, .bwLeft {
+        display: none;
+    }
+    i, .bwRight {
+        display: none;
+    }
+    .bwLeftArrows {
+        display: none;
+    }
+    .bwRightArrows {
+        display: none;
+    }
+}
