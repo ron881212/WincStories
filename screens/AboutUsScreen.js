@@ -4,6 +4,7 @@ import {
   Platform,
   ScrollView,
   StyleSheet,
+  SafeAreaView,
   Text,
   View,
 } from 'react-native';
