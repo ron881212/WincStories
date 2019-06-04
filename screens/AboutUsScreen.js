@@ -16,7 +16,7 @@ import Ron from '../images/ronald_youth.jpg'
 
 export default class AboutUs extends React.Component {
     static navigationOptions = {
-      header: null,
+      title: 'About',
     };
   
     render() {

@@ -1,18 +1,21 @@
 {
-  "name": "firstAndroid",
+  "name": "Winc-Stories",
   "version": "0.0.1",
   "private": true,
   "scripts": {
     "start": "node node_modules/react-native/local-cli/cli.js start",
-    "test": "jest"
+    "test": "jest",
+    "ios": "react-native run-ios",
+    "andriod": "react-native run-andriod"
   },
   "dependencies": {
     "react": "16.8.3",
     "react-native": "0.59.5",
     "react-native-elements": "^1.1.0",
     "react-native-gesture-handler": "^1.2.1",
+    "react-native-snap-carousel": "^3.8.0",
     "react-native-vector-icons": "^6.4.2",
-    "react-navigation": "^3.9.1"
+    "react-navigation": "^3.11.0"
   },
   "devDependencies": {
     "@babel/core": "^7.4.4",

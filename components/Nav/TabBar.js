@@ -1,10 +1,16 @@
 import React from 'react';
 import Ionicons from 'react-native-vector-icons/Ionicons';
 import {Text, View} from 'react-native';
-import { createBottomTabNavigator, createAppContainer } from 'react-navigation';
+import { 
+  createBottomTabNavigator,
+  createAppContainer,
+  createStackNavigator
+} from 'react-navigation';
 import HomeScreen from '../../screens/HomeScreen';
 import LibraryScreen from '../../screens/LibraryScreen';
 import AboutUsScreen from '../../screens/AboutUsScreen';
+import bobbyBook from '../../Books/bobbyWalk/bobbyBook'
+import prettyBook from '../../Books/prettyCity/prettyBook'
 
 class IconWithBadge extends React.Component {
   render() {
@@ -39,8 +45,12 @@ class IconWithBadge extends React.Component {
 
 const HomeIconWithBadge = props => {
   // You should pass down the badgeCount in some other ways like context, redux, mobx or event emitters.
-  return <IconWithBadge {...props} badgeCount={3} />;
-};
+  return <IconWithBadge {...props} badgeCount={0} />;
+}
+const LibraryIconWithBadge = props => {
+  // You should pass down the badgeCount in some other ways like context, redux, mobx or event emitters.
+  return <IconWithBadge {...props} badgeCount={4} />;
+}
 
 const getTabBarIcon = (navigation, focused, tintColor) => {
   const { routeName } = navigation.state;
@@ -53,7 +63,7 @@ const getTabBarIcon = (navigation, focused, tintColor) => {
     IconComponent = HomeIconWithBadge;
   } else if (routeName === 'Library') {
     iconName = `ios-book${focused ? '' : ''}`;
-    // IconComponent = LibraryIconWithBadge;
+    IconComponent = LibraryIconWithBadge;
   } else if (routeName === 'About') {
     iconName = `ios-add${focused ? '' : ''}`;
     // IconComponent = AboutIconWithBadge;
@@ -63,11 +73,25 @@ const getTabBarIcon = (navigation, focused, tintColor) => {
   return <IconComponent name={iconName} size={25} color={tintColor} />;
 };
 
+const Library = createStackNavigator({
+  Library: { 
+    screen: LibraryScreen 
+  },
+  Bobby: { 
+    screen: bobbyBook
+   },
+  Pretty: {
+    screen: prettyBook
+  }
+})
+
+
 export default createAppContainer(
   createBottomTabNavigator(
     {
       Home: { screen: HomeScreen },
-      Library: { screen: LibraryScreen },
+      Library,
+      // Library: { screen: LibraryScreen },
       About: { screen: AboutUsScreen }
     },
     {
