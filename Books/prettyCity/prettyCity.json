@@ -1,0 +1,213 @@
+[
+    {
+        "id": 0,
+        "text": [
+            "Text & Artwork by Alex Kluger",
+            "Copyright 2019"
+        ],
+        "imageLink": "https://monetthigpen.github.io/The/PrettyCityImgs/titlePage.jpg",
+        "cssClass": "pc-0",
+        "imageTitle": "title",
+        "audioLink": "https://monetthigpen.github.io/The/pretty_city_audio/pc-1.m4a"
+     
+    },
+    
+    {
+        "id": 1,
+        "text": [
+            "Our city was pretty,",
+            "The birds sang in the trees,",
+            "The air was fresh, but then..."
+        ],
+        "imageLink": "https://monetthigpen.github.io/The/PrettyCityImgs/IMG_1.jpg",
+        "cssClass": "pc-one",
+        "imageTitle": "stroll",
+        "audioLink": "https://monetthigpen.github.io/The/pretty_city_audio/pc-1.m4a"
+    },
+    {
+        "id": 2,
+        "text": [
+            "SNEEZE!!!  A truck drove by and belched out smoke.",
+            "We held our noses and thought we would choke!",
+            "The driver saw us and gave us a frown,",
+            "'Sorry folks but you live in filth town!'"
+        ],
+        "imageLink": "https://monetthigpen.github.io/The/PrettyCityImgs/IMG_2.jpg",
+        "cssClass": "pc-two",
+        "imageTitle": "truck",
+        "audioLink": "https://monetthigpen.github.io/The/pretty_city_audio/pc-1.m4a"
+    },
+    {
+        "id": 3,
+        "text": [
+            "We looked around and suddenly saw,",
+            "Trash everywhere -- 'There’s a can!  There’s a straw!'",
+            "Mama said 'Wait!  Let’s pick that up'",
+            "If we want a pretty city we have to clean up!'"
+        ],
+        "imageLink": "https://monetthigpen.github.io/The/PrettyCityImgs/IMG_3.jpg",
+        "cssClass": "pc-three",
+        "imageTitle": "dirty-block",
+        "audioLink": "https://monetthigpen.github.io/The/pretty_city_audio/pc-2.m4a"
+    },
+    {
+        "id": 4,
+        "text": [
+            "'But there’s so much litter.  Look at it all!",
+            "How will I gather it? I’m so small!'",
+            "'Silly child,' mama said, 'you won’t do it alone. Everybody will help,",
+            "Just pick up the phone!'"
+        ],
+        "imageLink": "https://monetthigpen.github.io/The/PrettyCityImgs/IMG_4.jpg",
+        "cssClass": "pc-four",
+        "imageTitle": "bin-overflow",
+        "audioLink": "https://monetthigpen.github.io/The/pretty_city_audio/pc-3.m4a"
+       
+    },
+    {
+        "id": 5,
+        "text": [
+            "We called Granny and Nanny and Frida and Troy,",
+            "Ava and Ann and Jamie and Roy,",
+            "Joey and Jayden, Amber and Anna,",
+            "Asia and Dixon and Bobbi and Hannah."
+        ],
+        "imageLink": "https://monetthigpen.github.io/The/PrettyCityImgs/IMG_5.jpg",
+        "cssClass": "pc-five",
+        "imageTitle": "phone",
+        "audioLink": "https://monetthigpen.github.io/The/pretty_city_audio/pc-4.m4a"
+    },
+    {
+        "id": 6,
+        "text": [
+            "We called all of our neighbors and one by one,",
+            "They came to help clean up the streets and have fun!"
+        ],
+        "imageLink": "https://monetthigpen.github.io/The/PrettyCityImgs/IMG_6.jpg",
+        "cssClass": "pc-six",
+        "imageTitle": "team",
+        "audioLink": "https://monetthigpen.github.io/The/pretty_city_audio/pc-5.m4a"
+    },
+    {
+        "id": 7,
+        "text": [
+            "We found bottles and wrappers,",
+            "And plastic and crackers,"
+        ],
+        "imageLink": "https://monetthigpen.github.io/The/PrettyCityImgs/IMG_7.jpg",
+        "cssClass": "pc-seven",
+        "imageTitle": "litter",
+        "audioLink": "https://monetthigpen.github.io/The/pretty_city_audio/pc-6.m4a"
+    },
+    {
+        "id": 8,
+        "text": [
+            "We grabbed bumpers and tires,",
+            "And diapers and wires,"
+        ],
+        "imageLink": "https://monetthigpen.github.io/The/PrettyCityImgs/IMG_8.jpg",
+        "cssClass": "pc-eight",
+        "imageTitle": "tires",
+        "audioLink": "https://monetthigpen.github.io/The/pretty_city_audio/pc-7.m4a"
+    },
+    {
+        "id": 9,
+        "text": [
+            "We swept all the sidewalks..."
+        ],
+        "imageLink": "https://monetthigpen.github.io/The/PrettyCityImgs/IMG_9.jpg",
+        "cssClass": "pc-nine",
+        "imageTitle": "sweeping",
+        "audioLink": "https://monetthigpen.github.io/The/pretty_city_audio/pc-8.m4a"
+    },
+    {
+        "id": 10,
+        "text": [
+            "And cleared out the grates..."
+        ],
+        "imageLink": "https://monetthigpen.github.io/The/PrettyCityImgs/IMG_10.jpg",
+        "cssClass": "pc-ten",
+        "imageTitle": "sewer-grate",
+        "audioLink": "https://monetthigpen.github.io/The/pretty_city_audio/pc-9.m4a"
+    },
+    {
+        "id": 11,
+        "text": [
+            "We walked to the park and polished the gates."
+        ],
+        "imageLink": "https://monetthigpen.github.io/The/PrettyCityImgs/IMG_18.jpg",
+        "cssClass": "pc-eleven",
+        "imageTitle": "park-or-museum",
+        "audioLink": "https://monetthigpen.github.io/The/pretty_city_audio/pc-10.m4a"
+    },
+    {
+        "id": 12,
+        "text": [
+            "We went down to the river and saw all the otters,",
+            "They thanked us for pulling trash out of the waters!"
+        ],
+        "imageLink": "https://monetthigpen.github.io/The/PrettyCityImgs/IMG_12.jpg",
+        "cssClass": "pc-twelve",
+        "imageTitle": "otters",
+        "audioLink": "https://monetthigpen.github.io/The/pretty_city_audio/pc-11.m4a"
+    },
+    {
+        "id": 13,
+        "text": [
+            "The man in the truck even picked up a broom.",
+            "We put trash in our bags 'til there was no more room!"
+        ],
+        "imageLink": "https://monetthigpen.github.io/The/PrettyCityImgs/IMG_13.jpg",
+        "cssClass": "pc-thirteen",
+        "imageTitle": "bagged-trash-sweeping",
+        "audioLink": "https://monetthigpen.github.io/The/pretty_city_audio/pc-12.m4a"
+    },
+    {
+        "id": 14,
+        "text": [
+            "The whole town helped us out.",
+            "Me and Mama were proud.",
+            "We looked around at the people-- what a ginormous crowd!"
+        ],
+        "imageLink": "https://monetthigpen.github.io/The/PrettyCityImgs/IMG_17.jpg",
+        "cssClass": "pc-fourteen",
+        "imageTitle": "happy-crowd",
+        "audioLink": "https://monetthigpen.github.io/The/pretty_city_audio/pc-13.m4a"
+ 
+    },
+    {
+        "id": 15,
+        "text": [
+            "When our trash bags were full at the end of the day,",
+            "Everyone smiled and cheered, Hip-hip-HOORAY!!!"
+        ],
+        "imageLink": "https://monetthigpen.github.io/The/PrettyCityImgs/IMG_14.jpg",
+        "cssClass": "pc-fifteen",
+        "imageTitle": "smiling-faces",
+        "audioLink": "https://monetthigpen.github.io/The/pretty_city_audio/pc-14.m4a"
+
+    },
+    {
+        "id": 16,
+        "text": [
+            "The city was pretty once more",
+            "With no more trash to sweep,",
+            "We said 'goodnight pretty city' and went home to sleep.",
+            "THE END"
+        ],
+        "imageLink": "https://monetthigpen.github.io/The/PrettyCityImgs/IMG_16.jpg",
+        "cssClass": "pc-sixteen",
+        "imageTitle": "nightCity or bedroom",
+        "audioLink": "https://monetthigpen.github.io/The/pretty_city_audio/pc-15.m4a"
+    },
+    {
+        "id": 17,
+        "text": [
+            "     "
+        ],
+        "imageLink": "https://monetthigpen.github.io/The/PrettyCityImgs/endPage.jpg",
+        "cssClass": "pc-seventeen",
+        "imageTitle": "city-at-night",
+        "audioLink": "https://monetthigpen.github.io/The/pretty_city_audio/pc-16.m4a"
+    }
+]
